@@ -31,4 +31,7 @@ public class Category {
     public Category() {
     }
 
+    public Category(String categoryName) {
+        this.categoryName = categoryName;
+    }
 }
